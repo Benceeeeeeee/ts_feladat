@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <div>
+      <label for="jegy">Jegy: </label>
+      <input id="jegy" type="number" placeholder="1-5"><br>
+      <button type="button" id="gomb" style="margin-top: 10px;">Küld</button>
+      <p id="jegyek"></p>
+    </div>
+
+    <div>
+      <label for="kereses" style="margin-top: 50px;">Keresés</label>
+      <input id="kereses" type="number" placeholder="Írjon be egy jegyet">
+      <p id="jegyKeres"></p>
+    </div>
+
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
